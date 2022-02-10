@@ -25,7 +25,7 @@
 #define SYS_EXEC_PATH_OPT	"/opt/sbin:/opt/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 #define SYS_HOME_PATH_ROOT	"/home/admin"
 
-#define SYS_USER_ROOT		"ASUS"
+#define SYS_USER_ROOT		"admin"
 #define SYS_GROUP_ROOT		"root"
 #define SYS_USER_NOBODY		"nobody"
 #define SYS_GROUP_NOGROUP	"nogroup"
@@ -37,17 +37,17 @@
 
 #define DEF_WLAN_2G_CC		"CN"
 #define DEF_WLAN_5G_CC		"US"
-#define DEF_WLAN_2G_SSID	"ASUS"
-#define DEF_WLAN_5G_SSID	"ASUS5G"
-#define DEF_WLAN_2G_GSSID	"ASUS_GUEST"
-#define DEF_WLAN_5G_GSSID	"ASUS_GUEST_5G"
+#define DEF_WLAN_2G_SSID	"PDCN"
+#define DEF_WLAN_5G_SSID	"PDCN_5G"
+#define DEF_WLAN_2G_GSSID	"PDCN_GUEST"
+#define DEF_WLAN_5G_GSSID	"PDCN_GUEST_5G"
 #define DEF_WLAN_2G_PSK		"1234567890"
 #define DEF_WLAN_5G_PSK		"1234567890"
 
-#define DEF_ROOT_PASSWORD	"147852369"
+#define DEF_ROOT_PASSWORD	"admin"
 #define DEF_SMB_WORKGROUP	"WORKGROUP"
 #define DEF_TIMEZONE		"CST-8"
-#define DEF_NTP_SERVER0		"192.168.2.155"
+#define DEF_NTP_SERVER0		"ntp1.aliyun.com"
 #define DEF_NTP_SERVER1		"2001:470:0:50::2"
 #ifdef SUPPORT_OPENSSL_EC
 #define DEF_HTTPS_CIPH_LIST	"ECDH+CHACHA20:ECDH+AESGCM:DH+AESGCM:DH+AES256:DH+AES:DH+3DES:RSA+AES:RSA+3DES:!ADH:!MD5:!DSS"
